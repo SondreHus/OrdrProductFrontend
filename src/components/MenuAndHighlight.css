@@ -1,0 +1,89 @@
+.List-Card{
+    width: fit-content;
+  }
+  
+.List-Content{
+border-radius: 2px;
+padding: 6px 4px 4px 4px;
+width: 650px;
+height: 45px; 
+}
+
+
+.List-Content:hover{
+animation-duration: 0.3s;
+animation-name: Item-Hover;
+background-color: #ceb989;
+}
+
+.List-Card-Name{
+padding: 2px 3px 0 3px;
+font-size: 29px;
+flex-grow: 1;
+flex-direction: row;
+float: left;
+}
+.List-Card-Price{
+margin: 2px 0 0 0;
+font-size: 29px;
+float: right;
+}
+.Highlight{
+width: 340px;
+background-color: #9B451E;
+border-radius: 7px;
+margin: 10px;
+padding:0px 30px 20px 30px;
+height: fit-content;
+box-shadow: 3px 5px 3px #252525
+}
+
+.Highlight>div{
+height: 250px;
+padding-top: 20px;
+}
+
+.Highlight>div>p{
+font-size: 24px;
+}
+.Highlight>div>h3{
+margin-bottom: 5px;
+}
+.Highlight>div *{
+    text-align: left;
+}
+.Highlight>h3{
+    text-align: right;
+}
+
+.Menu-And-Description{
+flex-direction: row;
+display: flex;
+}
+.Menu{
+    background-color: #eace98;
+    padding: 25px;
+    border-radius: 7px;
+    margin: 10px;
+    color: #583900;
+    box-shadow: 3px 5px 3px #252525
+}
+.Page{
+height: 750px;
+width: 650px;
+}
+.Tasty-Image{
+display: flex;
+background-color: lightgray;
+width: 320px;
+height: 200px;
+border-radius: 5px;
+}
+@keyframes Item-Hover {
+    from{
+    background-color: inherit;
+    }
+    to{
+    background-color: #ceb989;
+    }
+}
